@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use RouteQ in your academic or professional research, please cite it as below."
+title: "RouteQ: Adaptive Last-Mile Route Optimization via Hybrid Quantum-Classical QAOA"
+authors:
+  - name: "Team nextgen"
+    affiliation: "IBM Qiskit Fall Fest 2026"
+repository-code: "https://github.com/shaikaaishabanu5599/RouteQ-Quantum-Route-Optimization"
+keywords:
+  - "quantum-computing"
+  - "qiskit"
+  - "qaoa"
+  - "qubo"
+  - "logistics"
+  - "vehicle-routing-problem"
+  - "cvrp"
+  - "ibm-quantum"
+date-released: 2026-10-10
+version: "2.0.0"
+license: "Apache-2.0"

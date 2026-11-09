@@ -1,0 +1,62 @@
+{
+  "project": "RouteQ - Quantum-Assisted Delivery Route Optimization",
+  "timestamp": "2026-10-09 16:29:44",
+  "environment": {
+    "python": "3.13.16",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "backend": "AerSimulator (Local Classical Emulation)"
+  },
+  "full_10_stop_benchmark": {
+    "method": "Classical Nearest Neighbor + 2-Opt",
+    "route": [
+      0,
+      8,
+      3,
+      10,
+      7,
+      2,
+      5,
+      1,
+      6,
+      4,
+      9,
+      0
+    ],
+    "total_distance_km": 254.94,
+    "is_valid": true,
+    "runtime_seconds": 0.0141
+  },
+  "3_stop_subproblem_benchmark": {
+    "sub_stops": [
+      1,
+      2,
+      3
+    ],
+    "exact_classical": {
+      "route": [
+        0,
+        2,
+        1,
+        3,
+        0
+      ],
+      "distance_km": 165.16,
+      "runtime_seconds": 0.000384
+    },
+    "qaoa_quantum_simulation": {
+      "route": [
+        0,
+        2,
+        1,
+        3,
+        0
+      ],
+      "objective_value": 165.16,
+      "is_feasible": true,
+      "matched_exact_optimum": true,
+      "runtime_seconds": 191.2893
+    }
+  },
+  "disclaimer": "Execution performed on a classical statevector simulator (Qiskit Aer). No quantum advantage is claimed."
+}
